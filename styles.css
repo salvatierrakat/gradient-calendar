@@ -1,0 +1,61 @@
+* {
+    border: 1px 
+}
+
+body {
+    /* border-collapse: collapse; */
+    margin: 0;
+    font-family: 'Preahvihear', sans-serif;
+}
+
+h2 {
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 2500px;
+    margin: auto;
+    background-color: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+table, th, td {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid lightgrey;
+    font-size: 17px;
+    background-color: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+tr, th, td {
+    padding: 40px;
+}
+
+th {
+    color: white;
+}
+
+td {
+    color: white;
+}
+
+td:hover {
+    background: rgb(176, 210, 230);
+    transition: 0.5;
+}
+
+.end-of-month > .overlay {
+    background: lightgray;
+    opacity: 0.4;
+}
